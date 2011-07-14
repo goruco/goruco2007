@@ -1,0 +1,124 @@
+body {
+  background-color: #131d24;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: Gill Sans, Verdana, Arial, sans-serif;
+  font-size: large
+}
+
+a {
+  color: #99f;
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+#page {
+  margin: auto;
+  top: 0px;
+}
+
+#page.front {
+  width: 900px;
+  background: url( "/images/splash.png" );
+  background-repeat: no-repeat;
+  padding: 494px 0 0 0;
+}
+
+#page.rest {
+  width: 800px;
+}
+
+#header {
+  font-family: Gill Sans, Verdana, Arial, sans-serif;
+}
+
+#page.front #header {
+  padding: 10px;
+  margin-left: 400px;
+  width: 500px;
+}
+
+#page.rest #header #site-title {
+  background-color: #131d24;
+  margin-left: 550px;
+  width: 250px;
+  font-size: large;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+#page.rest #header #site-title a {
+  color: white;
+}
+
+#page.rest #header #site-subtitle {
+  float:left
+}
+
+#page.front #site-subtitle {
+  font-size:medium;
+}
+
+#page.rest #header #nav {
+  float:right
+}
+
+#header #site-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#nav {
+}
+
+#page.front #nav {
+  font-size: medium;
+}
+
+#content {
+  width: 800px;
+  background-color: #131d24;
+  margin: auto;
+}
+
+#page.front #content {
+  padding: 1px 10px;
+}
+
+#page.front #content div {
+  background-color: #131d24;
+  z-index: 10;
+}
+
+#footer {
+  width: 550px;
+  padding-left: 240px;
+  text-align: right;
+  font-style: italic;
+  font-size: medium;
+}
+
+.entry {
+  margin-bottom: 50px
+}
+
+.entry .info, #page.rest .info {
+  font-size: medium;
+  font-style: italic;
+}
+
+.sponsor-pic {
+  float:left;
+  padding-right:10px;
+  padding-top:6px;
+}
+
+.volunteer-pic {
+  float:left;
+  padding-right:10px;
+  padding-top:6px;
+}
